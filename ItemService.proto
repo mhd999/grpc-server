@@ -1,0 +1,4 @@
+service Item {
+    rpc GetByItemID (ItemID) return (Item)
+    rpc GetAllItem (Store) return (stream Item)
+}
